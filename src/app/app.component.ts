@@ -9,7 +9,7 @@ import MapboxDraw from 'mapbox-gl-draw/dist/mapbox-gl-draw.js';
 })
 
 export class AppComponent {
-  static t;
+
   ngOnInit() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoicng3cnVzcyIsImEiOiJjam5rcTRsOTUwNGRnM3BvaHVqNjVjYTZ2In0.K8t6Ff_8q_z4PGYTugyNFA';
     AppComponent.t.map = new mapboxgl.Map({
